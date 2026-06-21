@@ -1,0 +1,68 @@
+Cloud Computing: Concepts, Models, and the Shared Responsibility Framework
+
+Introduction
+
+Cloud computing is the delivery of computing services, including servers, storage, databases, networking, software, and analytics, over the internet ("the cloud") rather than through on-premises infrastructure that an organization owns and maintains. Cloud computing enables organizations to access scalable computing resources on demand, typically on a pay-as-you-go basis.
+
+Service Models
+
+Infrastructure as a Service (IaaS)
+IaaS provides virtualized computing resources over the internet, including virtual machines, storage, and networking. Customers manage their own operating systems, applications, and data, while the cloud provider manages the underlying physical infrastructure. Examples include Amazon EC2, Google Compute Engine, and Microsoft Azure Virtual Machines.
+
+Platform as a Service (PaaS)
+PaaS provides a platform allowing customers to develop, run, and manage applications without needing to manage the underlying infrastructure. This model is well-suited for developers who want to focus on writing code rather than managing servers. Examples include Google App Engine and Heroku.
+
+Software as a Service (SaaS)
+SaaS delivers fully functional software applications over the internet, typically accessed through a web browser, on a subscription basis. The provider manages everything from infrastructure to application maintenance. Examples include Gmail, Salesforce, and Dropbox.
+
+Deployment Models
+
+Public Cloud
+Resources are owned and operated by a third-party cloud service provider and shared among multiple customers (tenants) over the internet.
+
+Private Cloud
+Computing resources are used exclusively by a single organization, either hosted on-premises or by a third-party provider, offering greater control and security.
+
+Hybrid Cloud
+A hybrid cloud combines public and private cloud infrastructure, allowing data and applications to move between the two environments, offering greater flexibility.
+
+Multi-Cloud
+Multi-cloud refers to the use of cloud services from more than one provider, often to avoid vendor lock-in or to take advantage of specific strengths of different providers.
+
+The Shared Responsibility Model
+
+One of the most important concepts in cloud computing security is the shared responsibility model. This model defines which security tasks are handled by the cloud provider and which are handled by the customer.
+
+In general terms:
+
+The cloud provider is responsible for "security of the cloud." This includes the physical security of data centers, the underlying hardware infrastructure, networking, and virtualization layer.
+
+The customer is responsible for "security in the cloud." This includes configuring access controls correctly, managing identity and access management (IAM) permissions, encrypting their own data, patching their applications and guest operating systems (for IaaS), and properly configuring any services they use.
+
+The exact division of responsibility varies depending on the service model:
+
+In IaaS, the customer bears more responsibility, since they manage the operating system, applications, and data, while the provider manages physical hardware, networking, and virtualization.
+
+In PaaS, the provider takes on additional responsibility for the operating system and runtime, while the customer focuses on application code and data.
+
+In SaaS, the provider assumes the most responsibility, managing nearly the entire stack, while the customer is primarily responsible for managing user access and data they input into the application.
+
+A common cause of cloud security incidents is misconfiguration on the customer's side, such as leaving a storage bucket publicly accessible or failing to set up proper access controls, rather than a failure on the provider's side.
+
+Benefits of Cloud Computing
+
+Cost Efficiency: Organizations avoid large upfront capital expenditures on hardware and instead pay only for the resources they use.
+
+Scalability and Elasticity: Cloud resources can be scaled up or down quickly to match demand, which is especially valuable for handling traffic spikes.
+
+Global Reach: Cloud providers operate data centers around the world, allowing organizations to deploy applications closer to their end users for reduced latency.
+
+Disaster Recovery: Cloud providers often offer built-in redundancy and backup capabilities, simplifying disaster recovery planning.
+
+Challenges and Considerations
+
+Despite its benefits, cloud computing introduces challenges including vendor lock-in, ongoing cost management complexity, data sovereignty and compliance concerns, and the need for specialized skills to securely configure and manage cloud environments.
+
+Conclusion
+
+Cloud computing has fundamentally changed how organizations build and deploy technology, offering flexibility and scalability that traditional on-premises infrastructure struggles to match. However, realizing these benefits securely requires a clear understanding of the shared responsibility model and disciplined cloud governance practices.

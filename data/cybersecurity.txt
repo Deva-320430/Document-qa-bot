@@ -1,0 +1,55 @@
+Cybersecurity: Threats, Defenses, and Best Practices
+
+Introduction
+
+Cybersecurity refers to the practice of protecting systems, networks, applications, and data from digital attacks. As organizations increasingly rely on interconnected digital infrastructure, the attack surface available to malicious actors has grown substantially. This document provides an overview of common cybersecurity threats, defensive strategies, and best practices for individuals and organizations.
+
+Common Cybersecurity Threats
+
+1. Phishing Attacks
+Phishing remains one of the most common and effective attack vectors. Attackers send fraudulent emails, text messages, or create fake websites designed to trick victims into revealing sensitive information such as passwords, credit card numbers, or company credentials. Spear phishing is a more targeted variant where attackers research a specific individual or organization to craft a highly convincing message.
+
+2. Ransomware
+Ransomware is malicious software that encrypts a victim's files or locks them out of their systems, with attackers demanding payment (usually in cryptocurrency) in exchange for restoring access. Ransomware attacks have increasingly targeted hospitals, schools, municipal governments, and critical infrastructure providers, causing significant operational disruption.
+
+3. Malware
+Malware is a broad category of malicious software including viruses, worms, trojans, and spyware. Malware can be used to steal data, monitor user activity, damage systems, or provide attackers with unauthorized remote access to a compromised machine.
+
+4. Distributed Denial of Service (DDoS) Attacks
+A DDoS attack overwhelms a target server, service, or network with a flood of internet traffic, rendering it unavailable to legitimate users. Attackers often use botnets, networks of compromised devices, to generate this traffic at scale.
+
+5. SQL Injection
+SQL injection is a code injection technique where an attacker inserts malicious SQL statements into an entry field for execution. This can allow attackers to view, modify, or delete data in a backend database, and in some cases gain administrative access to the application.
+
+6. Insider Threats
+Not all threats come from outside an organization. Insider threats arise from employees, contractors, or business partners who misuse their legitimate access to systems and data, either maliciously or through negligence.
+
+7. Zero-Day Exploits
+A zero-day exploit targets a previously unknown vulnerability in software or hardware, before the vendor has released a patch. Because no fix exists yet, these exploits are particularly dangerous and difficult to defend against.
+
+Defensive Strategies
+
+Multi-Factor Authentication (MFA)
+MFA requires users to provide two or more verification factors to gain access to a resource, significantly reducing the risk of unauthorized access even if a password is compromised.
+
+Regular Patching and Updates
+Keeping software, operating systems, and firmware up to date closes known vulnerabilities that attackers could otherwise exploit.
+
+Network Segmentation
+Dividing a network into smaller segments limits how far an attacker can move laterally if they breach one part of the system, containing the potential damage.
+
+Employee Training
+Since phishing and social engineering rely on human error, regular security awareness training helps employees recognize and report suspicious activity.
+
+Encryption
+Encrypting data both at rest and in transit ensures that even if data is intercepted or stolen, it remains unreadable without the proper decryption key.
+
+Incident Response Planning
+Organizations should have a documented incident response plan that outlines the steps to take when a security breach occurs, including containment, eradication, recovery, and post-incident review.
+
+Zero Trust Architecture
+Zero Trust is a security model based on the principle of "never trust, always verify." Rather than assuming anything inside the network perimeter is safe, Zero Trust requires continuous verification of every user and device, regardless of location.
+
+Conclusion
+
+Cybersecurity is not a one-time fix but an ongoing process of risk assessment, defense, monitoring, and adaptation. As attackers develop new techniques, defenders must continuously evolve their strategies, combining technology, process, and people to build resilient systems.
